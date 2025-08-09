@@ -1,7 +1,5 @@
 {
-	"name": "Ubuntu Dev Container",
 	"dockerComposeFile": "docker-compose.yml",
-	"service": "app",
-	"workspaceFolder": "/workspace",
-	"remoteUser": "vscode"
+	"service": "devcontainer",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
 }
