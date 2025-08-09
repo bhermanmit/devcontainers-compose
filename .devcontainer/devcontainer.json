@@ -3,12 +3,5 @@
 	"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/workspace",
-	"features": {
-		"ghcr.io/devcontainers-extra/features/wget-apt-get:1": {}
-	},
-	"forwardPorts": [
-		3000,
-		5432
-	],
 	"remoteUser": "vscode"
 }
